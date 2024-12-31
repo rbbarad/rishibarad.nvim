@@ -1,8 +1,8 @@
-# kickstart.nvim
+# rishibarad.nvim
 
 ## Introduction
 
-A starting point for Neovim that is:
+This neovim configuration was branched from kickstart.nvim -- a starting point for Neovim that is:
 
 * Small
 * Single-file
