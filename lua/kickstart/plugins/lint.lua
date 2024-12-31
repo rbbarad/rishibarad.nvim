@@ -1,3 +1,9 @@
+-- With ale we already got an asynchronous linter, why write yet another one?
+--   Because ale also includes its own language server client.
+--   nvim-lint instead has a more narrow scope: It spawns linters, parses their output, and reports the results via the vim.diagnostic module.
+--   nvim-lint complements the built-in language server client for languages where there are no language servers, or where standalone linters provide better results.
+-- https://github.com/mfussenegger/nvim-lint
+
 return {
 
   { -- Linting
