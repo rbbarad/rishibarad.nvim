@@ -43,8 +43,7 @@ What is Kickstart?
 
 Kickstart Guide:
 
-  TODO: The very first thing you should do is to run the command `:Tutor` in Neovim.
-
+  The very first thing you should do is to run the command `:Tutor` in Neovim.
     If you don't know what this means, type the following:
       - <escape key>
       - :
@@ -78,11 +77,7 @@ Kickstart Guide:
 
 If you experience any errors while trying to install kickstart, run `:checkhealth` for more info.
 
-I hope you enjoy your Neovim journey,
-- TJ
-
-P.S. You can delete this when you're done too. It's your config now! :)
---]]
+"'I hope you enjoy your Neovim journey'- TJ" - Rishi
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
@@ -91,7 +86,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
